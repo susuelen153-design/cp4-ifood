@@ -1,9 +1,6 @@
--- Validação simples da carga
 
 SELECT COUNT(*) FROM IFOOD_CUSTOMERS;
--- resultado: 2240
 
--- Query usada como ponto de partida pro DataFrame de Machine Learning
 SELECT
     ID, YEAR_BIRTH, EDUCATION, MARITAL_STATUS, INCOME, KIDHOME, TEENHOME,
     DT_CUSTOMER, RECENCY, MNT_WINES, MNT_FRUITS, MNT_MEAT_PRODUCTS,
