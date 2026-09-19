@@ -2,9 +2,12 @@
 
 Trabalho da CP4 (Cognitive Data Science + Machine Learning), turma 1TIAPZ-2026.
 
-Grupo: Arthur Zeferino (RM 570858), Suellen Pereira da Silva (RM 573862), Giovanni Hessel (RM 570574), Israel Carneiro (RM 573854).
+Grupo: Arthur Zeferino (RM 570858)
+Suellen Pereira da Silva (RM 573862)
+Giovanni Hessel (RM 570574)
+Israel Carneiro (RM 573854)
 
-## O que tem aqui
+##Arquivos do Repositório
 
 - `data/ifood_customers.csv` - o dataset original
 - `sql/01_ddl.sql` - criação da tabela no Oracle
