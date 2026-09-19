@@ -13,6 +13,8 @@ Grupo: Arthur Zeferino (RM 570858), Suellen Pereira da Silva (RM 573862), Giovan
 - `sql/03_validacao.sql` - conferência dos dados carregados
 - `notebooks/CP4_iFood.ipynb` - EDA, feature engineering, tuning e avaliação do modelo
 
+Ordem pra rodar: `01_ddl.sql`, depois `load_data.py`, depois `02_dml_demo.sql` e `03_validacao.sql`, e por fim o notebook.
+
 ## Resultado
 
 | Modelo | Precision | Recall | F1 | ROC AUC |

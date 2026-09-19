@@ -1,6 +1,7 @@
 -- Validação simples da carga
 
 SELECT COUNT(*) FROM IFOOD_CUSTOMERS;
+-- resultado: 2240
 
 -- Query usada como ponto de partida pro DataFrame de Machine Learning
 SELECT
