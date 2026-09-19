@@ -1,10 +1,3 @@
--- ============================================================
--- CP4 - Cognitive Data Science
--- Demonstração de operações DML (INSERT / UPDATE / DELETE)
--- Executar DEPOIS da carga feita pelo notebook/load_data.py
--- ============================================================
-
--- INSERT: novo cliente cadastrado manualmente
 INSERT INTO IFOOD_CUSTOMERS (
     ID, YEAR_BIRTH, EDUCATION, MARITAL_STATUS, INCOME, KIDHOME, TEENHOME,
     DT_CUSTOMER, RECENCY, MNT_WINES, MNT_FRUITS, MNT_MEAT_PRODUCTS,
@@ -23,17 +16,17 @@ INSERT INTO IFOOD_CUSTOMERS (
     0, 3, 11, 0
 );
 
--- UPDATE: correção de renda de um cliente específico
+
 UPDATE IFOOD_CUSTOMERS
    SET INCOME = 53500.00
  WHERE ID = 99999;
 
--- UPDATE em lote: normaliza Marital_Status inconsistentes ("Absurd"/"YOLO") para "Single"
+
 UPDATE IFOOD_CUSTOMERS
    SET MARITAL_STATUS = 'Single'
  WHERE MARITAL_STATUS IN ('Absurd', 'YOLO');
 
--- DELETE: remove o registro de teste inserido acima
+
 DELETE FROM IFOOD_CUSTOMERS
  WHERE ID = 99999;
 
