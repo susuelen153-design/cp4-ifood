@@ -1,10 +1,3 @@
-"""
-Carga do CSV do Case iFood na tabela IFOOD_CUSTOMERS (Oracle FIAP).
-Executar depois de rodar o 01_ddl.sql.
-
-Credenciais lidas de variáveis de ambiente para não deixar senha no código:
-    ORACLE_USER, ORACLE_PASSWORD, ORACLE_DSN (host:porta/service_name)
-"""
 import os
 import math
 import pandas as pd
