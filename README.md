@@ -2,6 +2,9 @@
 
 Turma 1TIAPZ-2026 — 2º semestre.
 
+**Integrantes:** Arthur Zeferino (RM 570858), Suellen Pereira da Silva (RM 573862),
+Giovanni Hessel (RM 570574), Israel Carneiro (RM 573854).
+
 ## Estrutura do repositório
 
 ```
