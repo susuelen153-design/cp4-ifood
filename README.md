@@ -15,13 +15,7 @@ Grupo: Arthur Zeferino (RM 570858), Suellen Pereira da Silva (RM 573862), Giovan
 
 ## Rodando o projeto
 
-Instala as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Configura o acesso ao Oracle (RM e senha da FIAP):
+Precisa instalar as dependências (`pip install -r requirements.txt`) e ter o RM e senha da FIAP nas variáveis de ambiente:
 
 ```bash
 export ORACLE_USER=SEU_RM
@@ -29,7 +23,7 @@ export ORACLE_PASSWORD=SUA_SENHA
 export ORACLE_DSN=ORACLE.FIAP.COM.BR:1521/ORCL
 ```
 
-Depois é só seguir a ordem: `01_ddl.sql` no SQL Developer, `python sql/load_data.py` pra carga, `02_dml_demo.sql` e `03_validacao.sql` pra conferir, e por fim abrir o notebook no Jupyter e rodar tudo.
+Daí é só seguir a ordem: `01_ddl.sql` no SQL Developer, `python sql/load_data.py` pra carga, `02_dml_demo.sql` e `03_validacao.sql` pra conferir, e por fim abrir o notebook no Jupyter e rodar tudo.
 
 ## Resultado
 
