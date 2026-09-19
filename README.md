@@ -7,7 +7,7 @@ Suellen Pereira da Silva (RM 573862)
 Giovanni Hessel (RM 570574)
 Israel Carneiro (RM 573854)
 
-##Arquivos do Repositório
+## Arquivos do Repositório
 
 - `data/ifood_customers.csv` - o dataset original
 - `sql/01_ddl.sql` - criação da tabela no Oracle
