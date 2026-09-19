@@ -1,6 +1,6 @@
 # CP4 - Case iFood
 
-Trabalho da CP4 (Cognitive Data Science + Machine Learning), turma 1TIAPZ-2026.
+Turma 1TIAPZ-2026.
 
 Grupo: Arthur Zeferino (RM 570858)
 Suellen Pereira da Silva (RM 573862)
